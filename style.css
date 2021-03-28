@@ -1,3 +1,48 @@
-body {
-    background: blue;
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: skyblue;
+}
+
+#bg {
+    width: auto;
+}
+
+#bg img {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#name h2 {
+    font-size: 200%;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: royalblue;
+    font-style: italic;
+}
+
+#name h1 {
+    font-size: 250%;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: royalblue;
+}
+
+.head {
+    font-size: 175%;
+    text-align: center;
+    padding: 30px;
+}
+
+#Contact img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    height: 75px;
 }

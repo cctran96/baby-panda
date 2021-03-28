@@ -1,3 +1,5 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content was added by JavaScript";
-document.querySelector('body').appendChild(h2);
+function smoothScroll(){
+    document.querySelector('.your_class or #id here').scrollIntoView({
+        behavior: 'smooth'
+    });
+}
