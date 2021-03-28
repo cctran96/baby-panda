@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: skyblue;
+    scroll-behavior: smooth;
 }
 
 #bg {
@@ -36,13 +37,57 @@ html, body {
 .head {
     font-size: 175%;
     text-align: center;
-    padding: 30px;
+    padding-top: 30px;
+}
+
+#About, #Project, #Contact{
+    text-align: center;
+}
+
+#About img {
+    width: 300px;
+    height: 300px;
+}
+
+#Details h4{
+    margin-left: 200px;
+    font-size: 150%;
+}
+
+#Details p {
+    margin-left: 200px;
 }
 
 #Contact img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 125px;
-    height: 75px;
+    width: 150px;
+    height: 100px;
+}
+
+.Button {
+    bottom: 180px;
+    position: fixed;
+    width: 100%;
+}
+
+.Button button{
+    background-color: black;
+    border: 1px white;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 20%;
+    display: block;
+}
+
+button:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.Button button:not(:last-child) {
+    border-bottom: none;
 }
