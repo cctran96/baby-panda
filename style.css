@@ -50,12 +50,12 @@ html, body {
 }
 
 #Details h4{
-    margin-left: 200px;
+    margin-left: 25%;
     font-size: 150%;
 }
 
 #Details p {
-    margin-left: 200px;
+    margin-left: 25%;
 }
 
 #Contact img {
@@ -80,6 +80,29 @@ html, body {
     cursor: pointer;
     width: 20%;
     display: block;
+}
+
+#top {
+    bottom: 0px;
+    left: 94%;
+    position: fixed;
+    width: 100%;
+}
+
+#top button {
+    background: black;
+    border: 1x white;
+    color: white;
+    padding-top: 5px 10px;
+    cursor: pointer;
+    width: 5%;
+    display: block;
+}
+
+#top button:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
 }
 
 button:hover {
